@@ -1,4 +1,4 @@
-# docker-compose scaling web service demo
+# Docker-compose scaling web service demo
 A short demo on how to use docker-compose to create a Web Service connected to a load balancer and a Redis Database. Be sure to check out my blog post on the full overview - [brianchristner.io](https://www.brianchristner.io/how-to-scale-a-docker-container-with-docker-compose/)
 
 # Install
@@ -12,7 +12,7 @@ In order to get started be sure to clone this project onto your Docker Host. Cre
 Once you've cloned the project to your host we can now start our demo project. Easy! Navigate to the directory in which you cloned the project. Run the following commands from this directory 
     docker-compose up -d
 
-The  docker-compose command will pull the images from Docker Hub and then link them together based on the information inside the docker-compose.yml file. This will create ports, links between containers, and configure applications as requrired. After the command completes we can now view the status of our stack
+The docker-compose command will pull the images from Docker Hub and then link them together based on the information inside the docker-compose.yml file. This will create ports, links between containers, and configure applications as requrired. After the command completes we can now view the status of our stack
 
     docker-compose ps
 
